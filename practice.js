@@ -15,7 +15,11 @@
 */
 
 //Code here
-
+let Me = {
+  name: "Collins",
+  age: 18,
+};
+console.log(Me)
 
 
 ////////// PROBLEM 2 //////////
@@ -26,7 +30,14 @@
 */
 
 //Code here
-
+let favoriteThings = {
+  band: 'Outkast',
+  food: 'Chicken',
+  person: 'Me',
+  book: 'WhereDoWeGoFromHere',
+  movie: 'AngelsAndDemons',
+  holiday: 'birthday',
+};
 
 
 /*
@@ -34,6 +45,16 @@
 */
 
 //Code here
+let favoriteThings = {
+  band: "Outkast",
+  food: "Chicken",
+  person: "Me",
+  book: "WhereDoWeGoFromHere",
+  movie: "AngelsAndDemons",
+  holiday: "birthday",
+  car: "LamboSuv",
+  brand: "Nike",
+};
 
 
 
@@ -42,7 +63,16 @@
 */
 
 //Code here
-
+let favoriteThings = {
+  band: "Outkast",
+  food: "ChickenNuggets",
+  person: "Me",
+  book: "WhereDoWeGoFromHere",
+  movie: "AngelsAndDemons",
+  holiday: "birthday",
+  car: "LamboSuv",
+  brand: "Nike",
+};
 
 
 ////////// PROBLEM 3 //////////
@@ -56,15 +86,17 @@
 */
 
 //Code here
-
-
+let backPack = {}
+  
+let item = 'firstPocket'
+backPack[item] = 'chapstick';
 
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
-
+console.log(backPack)
 
 
 /*
@@ -74,7 +106,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
-
+console.log(backPack)
 
 
 ////////// PROBLEM 4 //////////
@@ -97,7 +129,13 @@ var user2 = {
 */
 
 //Code Here
-
+var user2 = {
+  name: 'TylerSMcginnis',
+  age: '24',
+  pwHash: 'U+Ldlngx2BYQK',
+  email: 'tyler.mcginnis@devmounta.in',
+  username: 'tylermcginnis33',
+};
 
 
 
