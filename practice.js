@@ -15,12 +15,12 @@
 */
 
 //Code here
-var me = {
-  name:"Collins",
-  age:18,
-}
+let me = {
+name: 'collins',
+age: '35'
+};
 
-alert(me.name);
+alert(me.name) 
 
 
 ////////// PROBLEM 2 //////////
@@ -32,14 +32,15 @@ alert(me.name);
 
 //Code here
 let favoriteThings = {
-  band: 'Outkast',
-  food: 'Chicken',
-  person: 'Me',
-  book: 'WhereDoWeGoFromHere',
-  movie: 'AngelsAndDemons',
-  holiday: 'birthday'
-  
-};
+  band: 'outkast',
+  food: 'veggies',
+  person: 'me',
+  book:'where do we go from here',
+  movie: 'none',
+  holiday: 'my birthday'
+}
+
+
 
 
 /*
@@ -47,9 +48,8 @@ let favoriteThings = {
 */
 
 //Code here
-favoriteThings.car='lambo';
-favoriteThings.brand='nike'
-
+favoriteThings.car = 'batmobile';
+favoriteThings.brand = 'nike';
 
 
 /*
@@ -57,8 +57,8 @@ favoriteThings.brand='nike'
 */
 
 //Code here
-favoriteThings.food='Chicken Nuggets';
-favoriteThings.book='Harry Potter'
+favoriteThings.food = 'Chicken Nuggets';
+favoriteThings.book = 'Harry Potter'
 
 
 ////////// PROBLEM 3 //////////
@@ -72,18 +72,17 @@ favoriteThings.book='Harry Potter'
 */
 
 //Code here
-let backPack = {}
-  
-let item = 'firstPocket'
-backPack[item] = 'chapstick';
+var backPack = {}
+var item = 'firstPocket'
+backPack['firstPocket'] = 'item'
+backPack['firstPocket'] = 'chapstick'
 
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
-alert(backPack);
-
+alert(backPack) 
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -92,12 +91,12 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
-console.log(backPack);
-
+console.log(backPack)
 
 ////////// PROBLEM 4 //////////
 
 // Do not edit the code below.
+
 var user2 = {
   name: 'Ty',
   age: 24,
@@ -106,6 +105,7 @@ var user2 = {
   birthday: '05/02/1990',
   username: 'tylermcginnis33'
 };
+
 // Do not edit the code above.
 
 /* 
@@ -115,9 +115,8 @@ var user2 = {
 */
 
 //Code Here
-user2.name='Tyler S. McGinnis';
-user2.email='tyler.mcginnis@devmounta.in';
-
+user2.name = 'Tyler S. McGinnis',
+user2.email = 'tyler.mcginnis@devmounta.in'
 
 
 
